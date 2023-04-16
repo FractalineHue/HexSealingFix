@@ -1,0 +1,2 @@
+execute as @s at @s as @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:focus"}},nbt=!{Item:{tag:{sealed:1b}}}] run tag @s add Seal_Target_Focus
+execute as @s at @s run function hexsealfix:seal_focus_step

@@ -1,0 +1,2 @@
+execute as @s at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:focus"}}] run function hexsealfix:seal_focus_check
+execute as @s at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:spellbook"}}] run function hexsealfix:seal_spellbook_check

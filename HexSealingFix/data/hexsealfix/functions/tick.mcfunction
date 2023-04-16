@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:honeycomb"}}] at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt=!{Item:{id:"minecraft:honeycomb"}}] run function hexsealfix:seal_find
